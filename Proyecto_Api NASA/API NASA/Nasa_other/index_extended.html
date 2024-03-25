@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body style="background-image:url(./images/asteroide_Nasa.webp);">
+    
+<h1 class="bg-gradient text-white pb-4" style="font-weight: bolder; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Neo - Lookup </h1>
+
+<div>
+<select class="form-select"  id="asteroidSelect" style="width: 30%;">
+    <option selected>Open this select menu</option>
+    <option value="2000433">2000433</option>
+    <option value="3542519">3542519</option>
+    <option value="2001981">2001981</option>
+  </select>
+  <button type="button" id="button" class="btn-outline-primary">Get Asteroid</button>
+</div>
+
+
+<h2 class=" text-white pb-4 pt-4" style="font-weight: bolder; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Name Asteroide</h2>
+<h3 class="text-white pb-4" style="font-weight: bolder; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">ID</h3>
+<div id="nasaJplUrlSection" style="font-size: x-large; font-weight: bolder; width: 50%;"></div>
+
+    <script src="/API NASA/Nasa_other/app_extended.js"></script>
+</body>
+</html>

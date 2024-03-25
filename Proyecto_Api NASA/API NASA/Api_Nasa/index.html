@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/Api_Nasa/styles.css">
+    <title>API NASA</title>
+</head>
+
+<body style="background-image: url(./images/Tierra-universe.jpg);">
+
+    <h1 class="text-center fw-bolder pt-4" style="color: white;">API NASA</h1>
+
+    <div class="mx-auto text-center pt-4" style="color: white;">
+
+        <div class="container">
+            <div class="input-group" style="justify-content: center;">
+                <select class="form-select" id="inputSearch" style="font-weight: bolder;">
+                    <option selected>Selecciona opción de búsqueda...</option>
+                    <option value="fecha">Fecha</option>
+                </select>
+                <button class="btn btn-outline-primary" id="searchDate">BUSCAR</button>
+            </div>
+            <div class="pt-4 mx-auto">
+                <button id="searchNEO" class="text-white btn-warning" style="font-weight:bolder; width: 50%;">NEO NASA</button>
+            </div>
+        </div>
+
+
+        <button id="updateButton" class="btn btn-primary text-center fw-bolder mt-4" style="width: 20rem;">
+            ACTUALIZAR</button>
+
+        <div id="gallery" class="ratio-16x9 text center pt-5">
+
+        </div>
+
+    </div>
+
+
+
+    <script src="/API NASA/Api_Nasa/app.js" defer></script>
+    
+</body>
+
+</html>

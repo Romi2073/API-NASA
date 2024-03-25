@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    background-color: rgb(4, 4, 141);
+}
+
+
+.img-fluid{
+width: 100%;
+height: 200px;
+
+}
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+
